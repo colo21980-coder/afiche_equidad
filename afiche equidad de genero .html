@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afiche: ¡La Equidad de Género es un Derecho!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #56B3FA;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .poster {
+            width: 85%;
+            max-width: 800px;
+            background-color: #FFC5C5;
+            border-radius: 8px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            margin: 20px;
+        }
+
+        .encabezado-institucional {
+            text-align: center;
+            background-color: #3498db;
+            padding: 10px;
+            border-bottom: 3px solid #002776;
+        }
+
+        .encabezado-institucional img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+            background: linear-gradient(to right, #FFFF00, #003399, #d7141a);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+
+        .imagen-central {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .imagen-central img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        .texto-destacado {
+            padding: 15px;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .mensajes {
+            padding: 15px;
+        }
+
+        .mensajes ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .mensajes li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+            font-size: 1.1em;
+        }
+
+        .llamado-accion {
+            background-color: #f9f9f9;
+            padding: 15px;
+            text-align: center;
+            border-top: 2px solid #efc600;
+        }
+
+        .llamado-accion button {
+            background-color: #002776;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .llamado-accion button:hover {
+            background-color: #003b9e;
+        }
+
+        footer {
+            padding: 15px;
+            text-align: center;
+            background-color: #ddd;
+        }
+
+        footer .logo img {
+            max-width: 120px;
+            height: auto;
+        }
+
+        footer p a {
+            color: #002776;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer p a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .poster {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <!-- Encabezado institucional -->
+        <div class="encabezado-institucional">
+            <img src="img/encabezado_institucional.jpg" alt="Encabezado institucional Jacques Cousteau">
+        </div>
+
+        <header>
+            <h1>¡La Equidad de Género es un Derecho!</h1>
+        </header>
+
+        <!-- Imagen central -->
+        <section class="imagen-central">
+            <img src="img/equidad de genero.jpg" alt="Equidad de género">
+        </section>
+
+        <section class="texto-destacado">
+            <p>"Las oportunidades no tienen género. ¡Tu futuro es tu elección!"</p>
+        </section>
+
+        <!-- Segunda imagen -->
+        <section class="imagen-central">
+            <img src="img/inclusion_equidad en el trabajo.jpg" alt="Inclusión y equidad en el trabajo">
+        </section>
+
+        <section class="mensajes">
+            <ul>
+                <li><strong>Para todos:</strong> Las profesiones son para todos, sin importar si eres hombre o mujer.</li>
+                <li><strong>Rompe estereotipos:</strong> Desafía las normas. Sé lo que quieras ser.</li>
+                <li><strong>Apoya a otros:</strong> Fomenta un ambiente donde todos se sientan libres de soñar.</li>
+            </ul>
+        </section>
+
+        <section class="llamado-accion">
+            <p>Únete a la lucha por la equidad de género. Comparte este mensaje y sé parte del cambio.</p>
+            <button id="compartir-boton">Compartir</button>
+        </section>
+
+        <footer>
+            <div class="logo">
+                <img src="img/logo_institucional.jpg" alt="Logo institucional">
+            </div>
+            <div class="redes-sociales">
+                <p>Síguenos en 
+                    <a href="https://www.facebook.com/share/1CmAEeBYxS/">Facebook</a> | 
+                    <a href="#">Twitter</a> | 
+                    <a href="https://www.instagram.com/jacques.cousteau.3?igsh=MTF1bXhuNWdxamhtZQ==">Instagram</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('compartir-boton').addEventListener('click', function() {
+            alert('Función de compartir en desarrollo. ¡Gracias por difundir el mensaje!');
+        });
+    </script>
+</body>
+</html>
